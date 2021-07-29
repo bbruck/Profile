@@ -1,0 +1,112 @@
+body {
+  background-color: #0FA3B1;
+}
+
+h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 200%;
+  font-weight: 500;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100%;
+  font-weight: 300;
+  text-align: center;
+}
+
+.about {
+  color: black;
+}
+
+.section{
+  width: 850px;
+  background-color: #F9F7F3;
+  color: #0FA3B1;
+  border-radius: 7px;
+  padding: 20px auto;
+  margin: auto;
+  text-align: center;
+}
+
+.desc-center {
+  width: 380px;
+  border-radius: 0px;
+  margin: auto;
+}
+
+a {
+  font-style: none;
+}
+
+ul {
+  list-style: none;
+  color: #A23B72;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.profile-pic {
+  display: inline;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.btn-space {
+  padding: 20px 0;
+  margin: 20px auto;
+}
+
+.btn-discover {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  background-color: #F47E3E;
+  padding: 10px 20px;
+  border-radius: 28px;
+}
+
+.btn-discover:hover{
+  background-color: #F58B51;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.card-white {
+	background-color: white;
+	border: 1px solid rgb(240, 240, 240);
+	/* padding: 5px; */
+	width: 250px;
+}
+
+.card-white .card-white-image {
+  display: inline-block;
+	background-size: cover;
+	background-position: center;
+	width: 90%;
+	height: 150px;
+}
+
+.social_icons {
+  color: #0FA3B1;
+  margin: 50px 0;
+  font-size: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.social_icons:hover {
+  color: #12BFCE;
+}
